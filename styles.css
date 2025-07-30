@@ -4,8 +4,8 @@ button {
 }
 
 #calculator {
-    height: 400px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     border: 2px black solid;
 }
 #all-buttons {
@@ -14,10 +14,24 @@ button {
 
 #display {
     width: 100%;
-    height: 70px;
-    background-color: bisque;
+    height: 20%;
+    background-color: bisque;   
+}
+
+#entered {
+    height: 30%;
+}
+#calculation {
+    height: 70%;
+    text-align: right;
+    font-size: 32px;
 }
 
 .row {
     height: 20%;
+}
+
+body {
+    height: 400px;
+    width: 300px;
 }
